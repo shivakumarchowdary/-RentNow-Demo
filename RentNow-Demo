@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentNow - Instant Rentals Anytime</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; }
+        header { background: #007BFF; color: white; padding: 20px; font-size: 24px; }
+        .container { padding: 20px; }
+        .btn { background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .btn:hover { background: #218838; }
+        .feature { margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <header>RentNow - Instant Rentals Anytime</header>
+    
+    <div class="container">
+        <h2>Find & Rent Anything Instantly</h2>
+        <p>Rent tools, vehicles, gadgets, and more from trusted locals.</p>
+        <a href="#signup" class="btn">Get Early Access</a>
+    </div>
+    
+    <div class="container">
+        <h3>How It Works</h3>
+        <div class="feature">
+            <h4>📍 Hyperlocal Rentals</h4>
+            <p>Find items near you within minutes.</p>
+        </div>
+        <div class="feature">
+            <h4>🔒 Safe & Secure</h4>
+            <p>Verified users, secure payments, and no fraud.</p>
+        </div>
+        <div class="feature">
+            <h4>⚡ Instant Booking</h4>
+            <p>Book an item instantly without delays.</p>
+        </div>
+    </div>
+    
+    <div class="container" id="signup">
+        <h3>Join RentNow Today!</h3>
+        <p>Be the first to experience hassle-free rentals.</p>
+        <a href="#" class="btn">Sign Up Now</a>
+    </div>
+</body>
+</html>
